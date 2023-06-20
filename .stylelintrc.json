@@ -9,6 +9,7 @@
         "indentation": [
             4
         ],
-        "color-hex-case": "upper"
+        "color-hex-case": "upper",
+        "media-feature-range-notation": "prefix"
     }
 }
