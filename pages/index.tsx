@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button, Htag, Ptag, Rating } from "../components";
-import { Tag } from "../components/Tag/Tag";
+import { Tag } from "../components";
 import { withLayout } from "../layout/Layout";
 import axios from "axios";
 import { MenuItem } from "../interfaces/menu.interface";
