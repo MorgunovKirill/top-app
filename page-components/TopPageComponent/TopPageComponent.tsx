@@ -1,7 +1,8 @@
-import { Card, Htag } from "../../components";
+import { Card, HhData, Htag } from "../../components";
 import { Tag } from "../../components";
 import { TopPageComponentProps } from "./TopPageComponent.props";
 import styles from "./TopPageComponent.module.css";
+import { TopLevelCategory } from "../../interfaces/page.interface";
 
 export const TopPageComponent = ({
   page,
@@ -28,12 +29,7 @@ export const TopPageComponent = ({
           hh.ru
         </Tag>
       </div>
-      <div className={styles.hh}>
-        <Card className={styles.hhCount}>
-          <div className={styles.hhStatTitle}>Всего вакансий</div>
-          <div className={styles.hhStatCount}>{page.hh.count}</div>
-        </Card>
-      </div>
+      {firstCategory == TopLevelCategory.Courses && <HhData {...page.hh} />}
     </div>
   );
 };
