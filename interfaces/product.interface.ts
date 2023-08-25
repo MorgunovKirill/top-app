@@ -22,14 +22,14 @@ export interface ProductModel {
     credit: number;
     oldPrice: number;
     description: string;
-    characterstics: ProductCharacteristic[];
+    characteristics: ProductCharacteristic[];
     createdAt: Date;
     updatedAt: Date;
     __v: number;
     image: string;
     initialRating: number;
     reviews: ReviewModel[];
-    reviewsCount: number;
+    reviewCount: number;
     reviewsAvg?: number;
     advantages?: string;
     disadvantages?: string;
