@@ -32,7 +32,7 @@ export const HhData = ({
           <div className={styles.salaryValue}>{priceRu(middleSalary)}</div>
           <div className={styles.rate}>
             <RateIcon className={styles.filled} />
-            <RateIcon claclassNamess={styles.filled} />
+            <RateIcon className={styles.filled} />
             <RateIcon />
           </div>
         </div>
@@ -41,7 +41,7 @@ export const HhData = ({
           <div className={styles.salaryValue}>{priceRu(seniorSalary)}</div>
           <div className={styles.rate}>
             <RateIcon className={styles.filled} />
-            <RateIcon claclassNamess={styles.filled} />
+            <RateIcon className={styles.filled} />
             <RateIcon className={styles.filled} />
           </div>
         </div>
